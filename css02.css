@@ -438,6 +438,134 @@
     }
 }
 /* ==========================
+   FOOTER
+========================== */
+
+.footer {
+    background: #000;
+    margin-top: 80px;
+    border-top: 2px solid #E50914;
+    padding-top: 40px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-col h3 {
+    color: #E50914;
+    margin-bottom: 15px;
+}
+
+.footer-col p,
+.footer-col a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-col a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #222;
+    color: #999;
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    header {
+        height: 60px;
+        padding: 0 15px;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .nav {
+        gap: 10px;
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
+    .hero {
+        height: 70vh;
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 220px;
+    }
+
+    .catalogo {
+        gap: 10px;
+    }
+
+    .filme {
+        min-width: 150px;
+    }
+
+    .filme img {
+        height: 220px;
+    }
+
+    .filme h3 {
+        font-size: 12px;
+    }
+
+    .seta {
+        font-size: 25px;
+        padding: 8px 12px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/* ==========================
    DESKTOP GRANDE
 ========================== */
 
