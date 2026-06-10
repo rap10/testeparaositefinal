@@ -91,3 +91,18 @@ header {
     color: #E50914;
     text-decoration: none;
 }
+@media screen and (max-width: 768px) {
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .login-box {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .login-box h1 {
+        font-size: 1.8rem;
+    }
+}
